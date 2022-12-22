@@ -1,0 +1,14 @@
+﻿  Ch03exer.c
+C:\Users\kimch\source\repos\kimchanho0107\HonGongC\Ch03\Ch03exer.c(45,12): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\kimch\source\repos\kimchanho0107\HonGongC\Ch03\Ch03exer.c(45,12): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\kimch\source\repos\kimchanho0107\HonGongC\Ch03\Ch03exer.c(46,12): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\kimch\source\repos\kimchanho0107\HonGongC\Ch03\Ch03exer.c(46,12): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\kimch\source\repos\kimchanho0107\HonGongC\Ch03\Ch03exer.c(47,12): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\kimch\source\repos\kimchanho0107\HonGongC\Ch03\Ch03exer.c(47,12): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\kimch\source\repos\kimchanho0107\HonGongC\Ch03\Ch03exer.c(48,12): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\kimch\source\repos\kimchanho0107\HonGongC\Ch03\Ch03exer.c(48,12): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\kimch\source\repos\kimchanho0107\HonGongC\Ch03\Ch03exer.c(49,12): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\kimch\source\repos\kimchanho0107\HonGongC\Ch03\Ch03exer.c(49,12): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\kimch\source\repos\kimchanho0107\HonGongC\Ch03\Ch03exer.c(72,12): warning C4475: 'printf' : 길이 한정자 'll'은(는) 서식 지정자에서 형식 필드 문자 'f'과(와) 함께 사용할 수 없습니다.
+C:\Users\kimch\source\repos\kimchanho0107\HonGongC\Ch03\Ch03exer.c(67,11): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+  Ch03.vcxproj -> C:\Users\kimch\source\repos\kimchanho0107\HonGongC\Ch03\x64\Debug\Ch03.exe
