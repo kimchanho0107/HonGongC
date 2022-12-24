@@ -1,5 +1,7 @@
+#define _CRT_SECURE_NO_WARNINGS          //strcpy, scanf 함수가 컴파일 될수있게 함
 #include <stdio.h>
 #include <string.h>
+
 
 int main(void) {
 
@@ -93,6 +95,29 @@ int main(void) {
     double tax = income * tax_rate;
     printf("세금은 : %1.lf입니다.\n", tax);
     //const는 상수처럼 사용되지만 변수의 특성을 모두 가지는 변수임으로 주소 연산자로 메로미의 위치를 알수 있으면 사용 범위의 제한 규칙도 그대로 적용됨.
+
+
+
+
+    /*scanf 데이터입력 함수*/
+    int t;
+    scanf("%d", &t);       // scanf "" 안에는 문자 넣으면 안됨
+    printf("입력한 값은 %d 입니다.\n", t);
+
+    int age;
+    double height;
+    printf("나이와 키를 입력하시오:");
+    scanf("%d%lf", &age, &height);
+    printf("나이:%d 키:%lf 입니다\n", age, height);
+
+
+
+
+    /*문자 데이터 입력*/
+    char MyName[10];
+    printf("당신의 이름은 무엇입니까?");
+    scanf("%s", &MyName);
+    printf("당신의 이름은 %s 입니다.", MyName);
 
 
     return 0;
