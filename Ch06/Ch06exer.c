@@ -1,7 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-
 int main(void)
 {
 	/*while 반복문*/
@@ -18,6 +17,7 @@ int main(void)
 		scanf("%d", &num);
 	}
 	printf("입력한 숫자가 5이상임으로 while문을 종료합니다.\n");
+
 
 
 
@@ -43,6 +43,7 @@ int main(void)
 
 
 
+
 	/*do ~ while문*/
 	/*
 	do{
@@ -50,6 +51,8 @@ int main(void)
 	}while ( 반복조건 )
 	*/
 	//while 문과 비슷하나 dowhile문은 조건에 상관없이 무조건 실행문을 먼저 실행하고 조건을 비교함
+
+
 
 
 
