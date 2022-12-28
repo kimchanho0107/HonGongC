@@ -19,7 +19,7 @@ int main(void) {
 	double b;
 	char c;
 
-	printf("int형의 변수 주소 : %u\n", &a);
+	printf("int형의 변수 주소 : %u\n", &a); 
 	printf("double형의 변수 주소 : %u\n", &b);
 	printf("char형의 변수 주소 : %u\n", &c);
 
