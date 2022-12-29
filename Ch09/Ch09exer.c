@@ -39,6 +39,9 @@ int main(void) {
 	printf("변수로 x값 출력 : %d\n", x);
 
 
+	// 포인터에 사용된 const는 px가 가리키는 변수 x는 px를 갑접 참조 하여 바꿀수 없음.
+
+
 	return 0;
 
 
